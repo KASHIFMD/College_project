@@ -1,0 +1,5 @@
+# data<-read.csv("D:\\KASHIF\\Thesis_Mtech\\DataSets\\2019.csv\\R_TEST\\main.csv")
+reg1<-lm(data$XQuantile_90~data$avgDIST+data$maxW)
+# reg2<-lm(data$X90_Quantile~data$avgDIST+data$maxW+data$avgDD)
+# reg3<-lm(data$X90_Quantile~data$avgDIST+data$maxW+data$avgDD-1)
+# reg4<-lm(data$X90_Quantile~data$avgDIST+data$maxW-1)
